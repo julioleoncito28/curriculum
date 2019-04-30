@@ -1,0 +1,43 @@
+*{padding: 0;margin: 0;}
+h2{font:lighter 30px Verdana;padding: 20px;}
+p{font:lighter 15px Verdana;padding: 6px;}
+header{}
+/*Para que este en una posicion fija*/
+/*ponemos 40px para que pueda bajar*/
+header section{position:fixed;width:130px;top: 40px; }
+/*display:bloc para que se acomoden en una sola linea*/
+header section a{display:block;text-decoration: none;color: #666;font: lighter 14px Verdana;
+background: #fff;box-shadow: 1px 1px 5px #000;padding: 10px 0px 10px 80px;
+margin-bottom: 15px;border-radius: 10px;width: 100%;margin-left: -40px;
+transition: margin .7s,background .7s,color .7s}
+header section a:hover{margin-left: -15px;background:#0489b1;color: #fff; }
+#perfil{width: 100%;background:url(../img/fondoperfil.jpg)no-repeat center fixed;
+background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;
+-o-background-size: cover;color: #fff;padding: 20px 0px 50px 0px;  }
+#perfil img{width: 200px;border-radius: 500px;margin: 20px;}
+
+#extracto{width: 100%;background: #fff;color:#666;padding:20px 0px 50px 0px; }
+#extracto section{width: 800px;}
+#extracto section p{text-align: justify;}
+
+#formacion{width: 100%;background:url(../img/fondoformacion.jpg)no-repeat center fixed;
+    background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;
+    -o-background-size: cover;color: #fff;padding: 20px 0px 50px 0px;}
+ #formacion section article {padding: 20px 0px 20px 0px;} 
+ #formacion section article span{background: #0489b1;padding: 10px 40px 10px 40px;border-radius: 10px;} 
+ 
+ #habilidades{width: 100%;background: #fff;padding: 20px 0px 50px 0px;}
+ #habilidades #main-ha{margin: 500px;margin:auto;color: #666;}
+ #habilidades #main-base{margin: 500px;margin:auto;color: #666;}
+ #habilidades section h2,#habilidades section p {text-align: center;}
+ #habilidades section article section{padding: 20px 0px 20px 0px;}
+ #habilidades section article section{border: 2px solid #666;width:100%;border-radius:10px;  }
+ #habilidades section article section div{background:transparent;width: 0;}
+ #habilidades section article section div section{border: 0;padding: 10px 0px 10px 0px;background: #01A9DB;width: 0%;color:#666;
+transition:background .7s,width .7s,text-align .7s,color .7s; }
+ #habilidades section:hover article section div section{background: #01A9DB;width: 100%;text-align: center;color: #fff;}
+ #experiencia{width: 100%;background:url(../img/fondoexperiencia.jpg)no-repeat center fixed;
+    background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;
+    -o-background-size: cover;color: #fff;padding: 20px 0px 50px 0px;}
+ #experiencia section article {padding: 20px 0px 20px 0px;} 
+ #experiencia section article span{background: #0489b1;padding: 10px 40px 10px 40px;border-radius: 10px;font:lighter 14px Verdana;}    
